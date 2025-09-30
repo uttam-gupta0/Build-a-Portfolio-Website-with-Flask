@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-# Resume data (from your PDF)
+# Resume data 
 resume_data = {
     "name": "Uttam Kumar Gupta",
     "contact": {
@@ -52,3 +52,4 @@ def contact():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
